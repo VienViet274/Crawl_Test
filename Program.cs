@@ -6,5 +6,6 @@ callDriver callDriver = new callDriver();
 var nswer = callDriver.crawlConference();
 foreach(var con in nswer)
 {
-	Console.Write($"{con.Name}, {con.Date}, {con.Location}");
+	Console.Write($"{con.Name}, {con.Date}, {con.Location}, {con.URLnextPage}");
+	Console.WriteLine();
 }

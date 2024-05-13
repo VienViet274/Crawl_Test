@@ -16,7 +16,7 @@ namespace Crawl_Test
 		public string Type;
 		public string Status;
 		public string Venue;
-		public string Dates;
+		public string ConferenceDates;
 		public string Deadline;
 		public string Category;
 		public string Topics;
